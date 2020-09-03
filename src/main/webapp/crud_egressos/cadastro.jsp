@@ -1,10 +1,10 @@
-<%@page import="com.br.OMT.models.Discente"%>
+<%@page import="com.br.OMT.model.Discente"%>
 <%@page pageEncoding="ISO-8859-1"%>
 <%@page language="java" contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<jsp:useBean id="Sexo" class="com.br.OMT.Beans.SexoBean"/>
-<jsp:useBean id="EstadoCivil" class="com.br.OMT.Beans.EstadoCivilBean"/>
-<jsp:useBean id="Etnia" class="com.br.OMT.Beans.EtniaBean"/>
+<jsp:useBean id="Sexo" class="com.br.OMT.utils.beans.SexoBean"/>
+<jsp:useBean id="EstadoCivil" class="com.br.OMT.utils.beans.EstadoCivilBean"/>
+<jsp:useBean id="Etnia" class="com.br.OMT.utils.beans.EtniaBean"/>
 
 <!DOCTYPE html>
 <html lang="pt-br">

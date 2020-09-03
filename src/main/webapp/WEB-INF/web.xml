@@ -2,7 +2,7 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <filter>
         <filter-name>AuthenFilter</filter-name>
-        <filter-class>com.br.OMT.Filters.AuthenFilter</filter-class>
+        <filter-class>com.br.OMT.filters.AuthenFilter</filter-class>
         <init-param>
             <param-name>role</param-name>
             <param-value>123</param-value>
@@ -22,80 +22,80 @@
     </filter-mapping>
     <servlet>
         <servlet-name>EmpresaServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.EmpresaServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.EmpresaServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.LoginServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.LoginServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DiscenteServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.DiscenteServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.DiscenteServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EventoServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.EventoServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.EventoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ProjetoServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.ProjetoServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.ProjetoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>FormacaoServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.FormacaoServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.FormacaoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CursosEspecializantesServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.CursosEspecializantesServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.CursosEspecializantesServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AdmistradoresServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.AdmistradoresServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.AdmistradoresServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CampusServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.CampusServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.CampusServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TrabalhoServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.TrabalhoServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.TrabalhoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>pdf</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.pdf</servlet-class>
+        <servlet-class>com.br.OMT.controller.pdf</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EncherBanco</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.EncherBanco</servlet-class>
+        <servlet-class>com.br.OMT.controller.EncherBanco</servlet-class>
     </servlet>
     
     <servlet>
         <servlet-name>NotificacaoServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.NotificacaoServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.NotificacaoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TrabalhoCurriculoServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.TrabalhoCurriculoServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.TrabalhoCurriculoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EnviaPDFFormEgresso</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.EnviaPDFFormEgresso</servlet-class>
+        <servlet-class>com.br.OMT.controller.EnviaPDFFormEgresso</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CandidatoVagaServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.CandidatoVagaServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.CandidatoVagaServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AreadeAtuacaoServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.AreadeAtuacaoServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.AreadeAtuacaoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>IdiomaServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.IdiomaServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.IdiomaServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>VagaReservadaCandidatoServlet</servlet-name>
-        <servlet-class>com.br.OMT.Servlets.VagaReservadaCandidatoServlet</servlet-class>
+        <servlet-class>com.br.OMT.controller.VagaReservadaCandidatoServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EmpresaServlet</servlet-name>

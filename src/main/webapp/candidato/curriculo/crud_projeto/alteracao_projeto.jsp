@@ -5,9 +5,9 @@
 --%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<%@page import="com.br.OMT.models.Projeto"%>
-<%@page import="com.br.OMT.DAO.ProjetoDAO"%>
-<jsp:useBean id="ProjetoDAO" class="com.br.OMT.DAO.ProjetoDAO"/>
+<%@page import="com.br.OMT.model.Projeto"%>
+<%@page import="com.br.OMT.repository.ProjetoDAO"%>
+<jsp:useBean id="ProjetoDAO" class="com.br.OMT.repository.ProjetoDAO"/>
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>

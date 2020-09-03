@@ -1,6 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<jsp:useBean id="EventoDAO" class="com.br.OMT.DAO.EventoDAO" />
+<jsp:useBean id="EventoDAO" class="com.br.OMT.repository.EventoDAO" />
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>

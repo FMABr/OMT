@@ -9,11 +9,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<jsp:useBean id="FormacaoDAO" class="com.br.OMT.DAO.FormacaoDAO"/>
-<jsp:useBean id="TrabalhoCurriculoDAO" class="com.br.OMT.DAO.TrabalhoCurriculoDAO"/>
-<jsp:useBean id="ProjetoDAO" class="com.br.OMT.DAO.ProjetoDAO"/>
-<jsp:useBean id="IdiomaDAO" class="com.br.OMT.DAO.IdiomaDAO"/>
-<jsp:useBean id="AreadeAtuacaoDAO" class="com.br.OMT.DAO.AreadeAtuacaoDAO"/>
+<jsp:useBean id="FormacaoDAO" class="com.br.OMT.repository.FormacaoDAO"/>
+<jsp:useBean id="TrabalhoCurriculoDAO" class="com.br.OMT.repository.TrabalhoCurriculoDAO"/>
+<jsp:useBean id="ProjetoDAO" class="com.br.OMT.repository.ProjetoDAO"/>
+<jsp:useBean id="IdiomaDAO" class="com.br.OMT.repository.IdiomaDAO"/>
+<jsp:useBean id="AreadeAtuacaoDAO" class="com.br.OMT.repository.AreadeAtuacaoDAO"/>
 <jsp:useBean id="IOUtils" class="org.apache.commons.io.IOUtils"/>
 <c:set var="formacoes" value="${FormacaoDAO.listarPorID(usuario.id)}"/>
 <c:set var="idiomas" value="${IdiomaDAO.listarPorID(usuario.id)}"/>

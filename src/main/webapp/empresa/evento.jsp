@@ -5,7 +5,7 @@
 --%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<jsp:useBean id="EventoDAO" class="com.br.OMT.DAO.EventoDAO"/>
+<jsp:useBean id="EventoDAO" class="com.br.OMT.repository.EventoDAO"/>
 <c:set var="eventos" value="${EventoDAO.listEventos()}"/>
 <!DOCTYPE html>
 <html>

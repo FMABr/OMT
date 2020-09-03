@@ -3,11 +3,11 @@
     Created on : 12/06/2019, 22:03:04
     Author     : daniela
 --%>
-<%@page import="com.br.OMT.models.Trabalho"%>
-<%@page import="com.br.OMT.DAO.TrabalhoDAO"%>
+<%@page import="com.br.OMT.model.Trabalho"%>
+<%@page import="com.br.OMT.repository.TrabalhoDAO"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<jsp:useBean id="TrabalhoDAO" class="com.br.OMT.DAO.TrabalhoDAO"/>
+<jsp:useBean id="TrabalhoDAO" class="com.br.OMT.repository.TrabalhoDAO"/>
 <c:set var="trabalhos" value="${TrabalhoDAO.listTrabalho()}"/>
 <!DOCTYPE html>
 <html lang="pt-br">

@@ -6,8 +6,8 @@
 <%@page pageEncoding="ISO-8859-1"%>
 <%@page language="java" contentType="text/html; charset=ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<jsp:useBean id="EventoDAO" class="com.br.OMT.DAO.EventoDAO"/>
-<jsp:useBean id="FotosEventosDAO" class="com.br.OMT.DAO.FotosEventosDAO"/>
+<jsp:useBean id="EventoDAO" class="com.br.OMT.repository.EventoDAO"/>
+<jsp:useBean id="FotosEventosDAO" class="com.br.OMT.repository.FotosEventosDAO"/>
 <jsp:useBean id="URLDecoder" class="java.net.URLDecoder"/>
 <c:set var="evento" value="${EventoDAO.buscarPorURL(param.q)}"/>
 <c:set target="${evento}" property="fotos" value="${FotosEventosDAO.listFotosEventos(evento.id)}"/>

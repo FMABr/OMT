@@ -3,15 +3,15 @@
     Created on : 07/06/2018, 15:17:41
     Author     : Paulo e daniela e eduardo
 --%>
-<%@page import="com.br.OMT.DAO.UsuarioDAO"%>
+<%@page import="com.br.OMT.repository.UsuarioDAO"%>
 <%@page import="java.util.List"%>
 <%@page import="com.br.OMT.DAO.NotificacaoDAO"%>
-<%@page import="com.br.OMT.models.Notificacao"%>
+<%@page import="com.br.OMT.model.Notificacao"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="ISO-8859-1" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<jsp:useBean id="EventoDAO" class="com.br.OMT.DAO.EventoDAO" />
-<jsp:useBean id="FotosEventosDAO" class="com.br.OMT.DAO.FotosEventosDAO" />
+<jsp:useBean id="EventoDAO" class="com.br.OMT.repository.EventoDAO" />
+<jsp:useBean id="FotosEventosDAO" class="com.br.OMT.repository.FotosEventosDAO" />
 
 <jsp:useBean id="NotificacaoDAO" class="com.br.OMT.DAO.NotificacaoDAO"/>
 
