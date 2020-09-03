@@ -3,12 +3,12 @@
     Created on : 03/12/2019, 15:41:21
     Author     : daniela
 --%>
-<%@page import="com.br.OMT.Servlets.TrabalhoCurriculoServlet"%>
+<%@page import="com.br.OMT.controller.TrabalhoCurriculoServlet"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<%@page import="com.br.OMT.models.TrabalhoCurriculo"%>
-<%@page import="com.br.OMT.DAO.TrabalhoCurriculoDAO"%>
-<jsp:useBean id="TrabalhoCurriculoDAO" class="com.br.OMT.DAO.TrabalhoCurriculoDAO"/>
+<%@page import="com.br.OMT.model.TrabalhoCurriculo"%>
+<%@page import="com.br.OMT.repository.TrabalhoCurriculoDAO"%>
+<jsp:useBean id="TrabalhoCurriculoDAO" class="com.br.OMT.repository.TrabalhoCurriculoDAO"/>
 <html lang="pt-br">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>

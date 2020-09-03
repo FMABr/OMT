@@ -2,8 +2,8 @@
 <%@page language="java" contentType="text/html; charset=UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<jsp:useBean id="DiscenteDAO" class="com.br.OMT.DAO.DiscenteDAO"/>
-<jsp:useBean id="Criptografia" class="com.br.OMT.Utils.Criptografia"/>
+<jsp:useBean id="DiscenteDAO" class="com.br.OMT.repository.DiscenteDAO"/>
+<jsp:useBean id="Criptografia" class="com.br.OMT.utils.Criptografia"/>
 <c:set var="discentes" value="${DiscenteDAO.listar()}"/>
 <!DOCTYPE html>
 <html lang="pt-br">

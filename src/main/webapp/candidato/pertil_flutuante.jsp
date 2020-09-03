@@ -2,9 +2,9 @@
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <jsp:useBean id="IOUtils" class="org.apache.commons.io.IOUtils"/>
-<jsp:useBean id="Sexo" class="com.br.OMT.Beans.SexoBean"/>
-<jsp:useBean id="EstadoCivil" class="com.br.OMT.Beans.EstadoCivilBean"/>
-<jsp:useBean id="Etnia" class="com.br.OMT.Beans.EtniaBean"/>
+<jsp:useBean id="Sexo" class="com.br.OMT.utils.beans.SexoBean"/>
+<jsp:useBean id="EstadoCivil" class="com.br.OMT.utils.beans.EstadoCivilBean"/>
+<jsp:useBean id="Etnia" class="com.br.OMT.utils.beans.EtniaBean"/>
 
 <div class="card mb-4">
     <nav class="navbar navbar-expand-lg green darken-1">

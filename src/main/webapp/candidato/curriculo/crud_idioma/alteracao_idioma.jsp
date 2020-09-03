@@ -4,12 +4,12 @@
     Author     : daniela
 --%>
 
-<%@page import="com.br.OMT.Servlets.TrabalhoCurriculoServlet"%>
+<%@page import="com.br.OMT.controller.TrabalhoCurriculoServlet"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<%@page import="com.br.OMT.models.Idioma"%>
-<%@page import="com.br.OMT.DAO.IdiomaDAO"%>
-<jsp:useBean id="IdiomaDAO" class="com.br.OMT.DAO.IdiomaDAO"/>
+<%@page import="com.br.OMT.model.Idioma"%>
+<%@page import="com.br.OMT.repository.IdiomaDAO"%>
+<jsp:useBean id="IdiomaDAO" class="com.br.OMT.repository.IdiomaDAO"/>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>

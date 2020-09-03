@@ -5,7 +5,7 @@
 --%>
 <%@page pageEncoding="ISO-8859-1" language="java" contentType="text/html; charset=UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<jsp:useBean id="CampusDAO" class="com.br.OMT.DAO.CampusDAO"/>
+<jsp:useBean id="CampusDAO" class="com.br.OMT.repository.CampusDAO"/>
 <c:set var="campi" value="${CampusDAO.listarCampus()}"/>
 <!DOCTYPE html>
 <html lang="pt-br">

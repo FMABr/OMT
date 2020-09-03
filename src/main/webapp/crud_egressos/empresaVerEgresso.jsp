@@ -8,10 +8,10 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<jsp:useBean id="DiscenteDAO" class="com.br.OMT.DAO.DiscenteDAO"/>
-<jsp:useBean id="FormacaoDAO" class="com.br.OMT.DAO.FormacaoDAO"/>
-<jsp:useBean id="TrabalhoCurriculoDAO" class="com.br.OMT.DAO.TrabalhoCurriculoDAO"/>
-<jsp:useBean id="ProjetosDAO" class="com.br.OMT.DAO.ProjetoDAO"/>
+<jsp:useBean id="DiscenteDAO" class="com.br.OMT.repository.DiscenteDAO"/>
+<jsp:useBean id="FormacaoDAO" class="com.br.OMT.repository.FormacaoDAO"/>
+<jsp:useBean id="TrabalhoCurriculoDAO" class="com.br.OMT.repository.TrabalhoCurriculoDAO"/>
+<jsp:useBean id="ProjetosDAO" class="com.br.OMT.repository.ProjetoDAO"/>
 <jsp:useBean id="IOUtils" class="org.apache.commons.io.IOUtils"/>
 <c:set var="discente" value="${DiscenteDAO.buscarById(param['id'])}"/>
 <c:set var="trabalho" value="${param['t']}"/>

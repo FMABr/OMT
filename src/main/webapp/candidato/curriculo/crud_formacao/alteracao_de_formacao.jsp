@@ -6,9 +6,9 @@
 <%@page pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<%@page import="com.br.OMT.models.Formacao"%>
-<%@page import="com.br.OMT.DAO.FormacaoDAO"%>
-<jsp:useBean id="FormacaoDAO" class="com.br.OMT.DAO.FormacaoDAO"/>
+<%@page import="com.br.OMT.model.Formacao"%>
+<%@page import="com.br.OMT.repository.FormacaoDAO"%>
+<jsp:useBean id="FormacaoDAO" class="com.br.OMT.repository.FormacaoDAO"/>
 
 <!DOCTYPE html>
 <html lang="pt-br">

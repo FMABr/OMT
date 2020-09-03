@@ -6,7 +6,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="ISO-8859-1" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<jsp:useBean id="trabalhoDAO" class="com.br.OMT.DAO.TrabalhoDAO"/>
+<jsp:useBean id="trabalhoDAO" class="com.br.OMT.repository.TrabalhoDAO"/>
 <c:set var="vaga" value="${trabalhoDAO.getById(param.id)}"/>
 <!DOCTYPE html>
 <html lang="pt-br">

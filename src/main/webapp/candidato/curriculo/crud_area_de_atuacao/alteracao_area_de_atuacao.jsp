@@ -3,12 +3,12 @@
     Created on : 03/12/2019, 15:38:49
     Author     : daniela
 --%>
-<%@page import="com.br.OMT.Servlets.AreadeAtuacaoServlet"%>
+<%@page import="com.br.OMT.controller.AreadeAtuacaoServlet"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
-<%@page import="com.br.OMT.models.AreadeAtuacao"%>
-<%@page import="com.br.OMT.DAO.AreadeAtuacaoDAO"%>
-<jsp:useBean id="AreadeAtuacaoDAO" class="com.br.OMT.DAO.AreadeAtuacaoDAO"/>
+<%@page import="com.br.OMT.model.AreadeAtuacao"%>
+<%@page import="com.br.OMT.repository.AreadeAtuacaoDAO"%>
+<jsp:useBean id="AreadeAtuacaoDAO" class="com.br.OMT.repository.AreadeAtuacaoDAO"/>
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
