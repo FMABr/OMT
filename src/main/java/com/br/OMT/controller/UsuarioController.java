@@ -15,13 +15,18 @@ public class UsuarioController {
 		return "";
 	}
 	
-	@PostMapping("/cadastro/discente")
-	public String novoDiscente(@ModelAttribute Discente discente) {
+	@GetMapping("/cadastro/usuario")
+	public String novoUsuario() {
 		return "";
 	}
 	
-	@PostMapping("/cadastro/funcionario")
-	public String novoFuncionario(@ModelAttribute Funcionario funcionario) {
+	@PostMapping("/discente")
+	public String cadastrarDiscente(@ModelAttribute Discente discente) {
+		return "";
+	}
+	
+	@PostMapping("/funcionario")
+	public String cadastrarFuncionario(@ModelAttribute Funcionario funcionario) {
 		return "";
 	}
 }
